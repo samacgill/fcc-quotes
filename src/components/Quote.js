@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Button,
-  Segment,
-  Container,
-  Card,
-  Header,
-  Icon,
-} from "semantic-ui-react";
+import { Button, Card, Header, Icon } from "semantic-ui-react";
 
 export default function Quote(props) {
   const getQuoteHandler = () => {
